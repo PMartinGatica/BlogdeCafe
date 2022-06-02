@@ -67,3 +67,60 @@ body{
     text-align: center;
 }
 
+/* HEADER */
+
+.header{
+    background-image: url(../img/banner.jpg);
+    height: 60rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    
+}
+
+@media (min-width: 768px) {
+  .header__texto{
+      margin-top: 15rem;
+  }  
+}
+
+.header__texto{
+    text-align: center;
+    align-items: center;
+    color: var(--color-blanco);
+    margin-top: 5rem;
+}
+
+
+@media (min-width: 768px) {
+    .barra{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+.logo{
+    color: var(--color-blanco);
+    
+}
+
+.logo_nombre{
+    font-weight: 400;
+}
+
+.logo_bold{
+    font-weight:700;
+}
+
+@media (min-width: 768px) {
+    .navegacion{
+        display: flex;
+        gap: 2rem;
+    }
+}
+.navegacion__enlace{
+    display: block;
+    text-align: center;
+    font-size: 1.6rem;
+    color: var(--color-blanco);
+}
