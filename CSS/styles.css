@@ -213,3 +213,13 @@ h4{
     }
 
 }
+
+/* CURSOS */
+
+@media (min-width: 768px) {
+    .curso{
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        column-gap: 2rem;
+    }
+}
