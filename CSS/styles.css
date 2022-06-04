@@ -198,7 +198,18 @@ h4{
 
 .footer{
     background-color:black;
-    padding-bottom: 5rem;
-    margin-top: 2rem;
+    padding-bottom: 3rem;
+    margin-top: 1rem;
     
+}
+
+/* SOBRE NOSOTROS */
+
+@media (min-width: 768px) {
+    .sobre-nosotros{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        column-gap: 2rem;
+    }
+
 }
